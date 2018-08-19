@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    border:none;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.app{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+}
+/*顶部样式*/
+ .header{
+     width:1244px;
+     height:150px;
+     margin:0 auto;
+ }
+.header .header-left{
+    width:400px;
+    height:100%;
+    background-color:#000000;
+    float:left;
+}
+.header .header-left fieldset{
+    border:1px solid #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header .header-left fieldset legend{
+    color:#fff;
+    font-size:20px;
+}
+
+.header .header-left fieldset img {
+    width:400px;
+    height:80px;
+}
+
+.header .header-right{
+    width:844px;
+    height:150px;
+    float:right;
+    text-align: center;
+}
+.header .header-right .welcome{
+    width:844px;
+    height:50px;
+    line-height: 50px;
+    float:left;
+    background-color:#000000;
+    opacity: 0.6;
+    color:#fff;
+    font-size:20px;
+    display: inline-block;
+}
+.header .header-right .welcome:hover{
+    color:orangered;
+}
+
+.header .header-right .login{
+    width:844px;
+    height:100px;
+    float:left;
+    margin-left:0;
+    background-color:#333333;
+}
+.header .header-right .login li{
+    float:left;
+    margin-left:100px;
+    line-height:100px;
+}
+.header .header-right .login li a{
+    color:#fff;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.header .header-right .login li:hover a{
+    color:orangered;
+    opacity: 0.9;
+}
+/*顶部样式*/
+
+/*内容样式*/
+.content{
+    width:1244px;
+    height:auto;
+    margin:10px auto;
+
+}
+.content .content-top{
+    width:1244px;
+    height:500px;
+    border:1px solid #953b39;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.content .content-top span{
+    width:1244px;
+    height:40px;
+    display: inline-block;
+    line-height: 40px;
+    background-color: #333333;
+    text-align:center;
+    font-size:16px;
+    color:orangered;
+}
+.content .content-top .content-a{
+    width:1244px;
+    height:460px;
+    background-color:#ccc;
+}
+.content .content-top .content-a ul{
+    float:left;
+    margin-left:40px;
+    width:200px;
+    border: 1px solid #fff;
+    background-color:#fff;
+    border-radius: 5px;
+}
+
+.content .content-top .content-a ul li{
+    margin:23px;
+}
+.content .content-top .content-a ul li:hover a{
+    color:orangered;
+}
+
+.content .content-con{
+    width:1244px;
+    height:500px;
+    background-color:#ccc;
+    border:1px solid #953b39;
+    border-radius: 5px;
+    margin-top:10px;
+}
+.content .content-con span{
+    height:40px;
+    width:1244px;
+    display: inline-block;
+    background-color:#222222;
+    color:orangered;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.content .content-con .content-con-B2B{
+    width:1244px;
+    height:460px;
+    background-color:#ccc;
+}
+.content .content-con .content-con-B2B ul{
+    width:200px;
+    float:left;
+    margin-left:40px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    background-color:#fff;
+    text-align: center;
+}
+.content .content-con .content-con-B2B ul li{
+    margin:23px;
+}
+.content .content-con .content-con-B2B ul li:hover a{
+    color:orangered;
+}
+/*内容样式*/
+
+/*底部样式*/
+.footer{
+    width:100%;
+    height:150px;
+    background-color:rgba(223,233,234,.4);
+}
+.footer .footer-marquee{
+    width:1244px;
+    height:50px;
+    margin-left:50px;
+    color:orangered;
+    font-size: 20px;
+    line-height: 50px;
+    border: 1px solid #333333;
+    border-bottom: none;
+}
+.footer .footer-span{
+    width:1244px;
+    height:100px;
+    margin-left:50px;
+    line-height: 100px;
+    text-align: center;
+    color:crimson;
+    font-size: 20px;
+    border: 1px solid #333333;
+}
+/*底部样式*/
